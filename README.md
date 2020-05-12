@@ -9,7 +9,9 @@ Kicks certain users from certain rooms to certain rooms in a certain slack page
 6. Run these commands on the callback server:
 
 $ export SLACK_BOT_TOKEN=[the OAuth token]
+
 $ export FLASK_APP=EvilBot9000.py
+
 $ flask run host=0.0.0.0 &
 
 7. Set callback server in the inconspicuous bot account in slack to [your server]:5000/handleevent
