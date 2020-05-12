@@ -4,7 +4,7 @@ Kicks certain users from certain rooms to certain rooms in a certain slack page
 1. Upload to a callback server of your choice
 2. Create inconspicuout bot account in Slack
 3. Add inconspicuous bot to slack channels
-4. Get OAuth Token with channels:manage  groups:write  im:write  mpim:write privileges
+4. Get OAuth Token with channels:read channels:history channels:manage  groups:write  im:write  mpim:write scope
 5. On the callback server open port 5000
 6. Run these commands on the callback server:
 
